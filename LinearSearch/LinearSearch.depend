@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1681297387 source:c:\users\casper\onedrive\masaüstü\code blocks\linearsearch\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
