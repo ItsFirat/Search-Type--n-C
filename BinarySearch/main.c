@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int matris[] = {2,3,4,6,7,12,34,67,89};
-int BinearySearch(int A[],int , int);
+int BinarySearch(int A[],int , int);
 
 int main()
 {
@@ -12,7 +12,7 @@ int main()
     scanf("%d" ,&number);
 
     N = sizeof(matris) / sizeof(matris[0]);
-    flag = BinearySearch(matris,N,number);
+    flag = BinarySearch(matris,N,number);
 
     if(flag == 1){
         printf("number found!");
@@ -23,7 +23,7 @@ int main()
 
     return 0;
 }
-int BinearySearch(int A[],int N , int search){
+int BinarySearch(int A[],int N , int search){
     int middle, bottom = 0;
     int top = N-1;
 
