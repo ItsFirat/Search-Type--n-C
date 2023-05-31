@@ -10,7 +10,7 @@ int main()
     int number;
 
     for(i=0; i<10; i++){
-        int x = 1 + rand() % 20;
+        int x = 1 + rand() % 100;
         matrix[i] = x;
         printf("%3d", matrix[i]);
     }
